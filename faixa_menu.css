@@ -1,0 +1,46 @@
+body, html{
+  height: 100%;
+  background-color: darkolivegreen;
+  margin: 0%
+}
+
+.a{
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+hr{
+  margin: 0%;
+}
+
+h1{
+  font-size: 80px
+}
+
+img{
+  height: 80px;
+  width: 80px;
+}
+
+.parallax{
+	height: 80%;
+
+	background-image: url(fundo_principal.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-color: darkolivegreen;
+	background-size: cover;
+}
+
+.logo_menu{
+  src:"logo_icone.png";
+  size: 100%;
+  position: center;
+}
+
+
