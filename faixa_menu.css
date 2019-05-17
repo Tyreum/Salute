@@ -1,17 +1,19 @@
 body, html{
   height: 100%;
-  background-color: darkolivegreen;
+  background-color: rgb(25 25 25);
   margin: 0%
 }
 
 .a{
-  color: white;
+  color: #fcad40;
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: 'pizzahut_fontregular', Arial, sans-serif;
   margin: 10px;
   align-items: center;
   justify-content: space-around;
   display: flex;
+  outline: none;
+  text-decoration: none;
 }
 
 hr{
@@ -33,7 +35,7 @@ img{
 	background-image: url(fundo_principal.png);
 	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-color: darkolivegreen;
+	background-color: rgb(25 25 25);
 	background-size: cover;
 }
 
