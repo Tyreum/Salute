@@ -20,8 +20,21 @@ hr{
   margin: 0%;
 }
 
+li{
+  list-style: none;
+  padding: 3.5%; 
+}
+
 h1{
   font-size: 80px
+}
+
+h2{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 30px;
 }
 
 img{
@@ -45,4 +58,11 @@ img{
   position: center;
 }
 
+.home_color{
+  color: rgb(219, 219, 219);
+}
 
+.float_menu, ul{
+  float: left;
+  margin-right: 50px;
+}
