@@ -1,68 +1,70 @@
-body, html{
-  height: 100%;
-  background-color: rgb(25 25 25);
-  margin: 0%
+body,
+html {
+    height: 100%;
+    background-color: rgb(25 25 25);
+    margin: 0%
 }
 
-.a{
-  color: #fcad40;
-  font-size: 20px;
-  font-family: 'pizzahut_fontregular', Arial, sans-serif;
-  margin: 10px;
-  align-items: center;
-  justify-content: space-around;
-  display: flex;
-  outline: none;
-  text-decoration: none;
+.a {
+    color: #fcad40;
+    font-size: 20px;
+    font-family: 'pizzahut_fontregular', Arial, sans-serif;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    outline: none;
+    text-decoration: none;
 }
 
-hr{
-  margin: 0%;
+hr {
+    margin: 0%;
 }
 
-li{
-  list-style: none;
-  padding: 3.5%; 
+li {
+    list-style: none;
+    padding-left: 100px;
 }
 
-h1{
-  font-size: 80px
+h1 {
+    font-size: 80px
 }
 
-h2{
-  font-size: 40px;
+h2 {
+    margin-left: 20px;
+    font-size: 40px;
 }
 
-h3{
-  font-size: 30px;
+h3 {
+    font-size: 30px;
 }
 
-img{
-  height: 80px;
-  width: 80px;
+img {
+    height: 80px;
+    width: 80px;
 }
 
-.parallax{
-	height: 80%;
-
-	background-image: url(fundo_principal.png);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-color: rgb(25 25 25);
-	background-size: cover;
+.parallax {
+    height: 80%;
+    background-image: url(fundo_principal.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgb(25 25 25);
+    background-size: cover;
 }
 
-.logo_menu{
-  src:"logo_icone.png";
-  size: 100%;
-  position: center;
+.logo_menu {
+    src: "logo_icone.png";
+    size: 100%;
+    position: center;
 }
 
-.home_color{
-  color: rgb(219, 219, 219);
+.home_color {
+    color: rgb(219, 219, 219);
 }
 
-.float_menu, ul{
-  float: left;
-  margin-right: 50px;
+.float_menu,
+ul {
+    float: left;
+    margin-left: 0px;
 }
