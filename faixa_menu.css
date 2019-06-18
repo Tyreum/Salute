@@ -49,7 +49,7 @@ img {
     background-image: url(fundo_principal.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-color: rgb(25 25 25);
+    background-color: rgb(25, 25, 25);
     background-size: cover;
 }
 
@@ -68,4 +68,8 @@ ul {
     float: left;
     margin-left: 0px;
     padding-left: 0px;
+}
+
+.cor:hover {
+    background-color: rgb(33, 33, 33);
 }
