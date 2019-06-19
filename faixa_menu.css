@@ -9,7 +9,6 @@ html {
     color: #fcad40;
     font-size: 20px;
     font-family: 'pizzahut_fontregular', Arial, sans-serif;
-    margin: 10px;
     align-items: center;
     justify-content: space-around;
     display: flex;
@@ -57,6 +56,8 @@ img {
     src: "logo_icone.png";
     size: 100%;
     position: center;
+    margin-bottom:10px;
+    margin-top: 10px;
 }
 
 .home_color {
@@ -70,6 +71,12 @@ ul {
     padding-left: 0px;
 }
 
-.cor:hover {
+.cor:hover{
     background-color: rgb(33, 33, 33);
+    padding-top: 23px;
+    padding: 
+}
+
+.margem{
+    margin: 0px;
 }
