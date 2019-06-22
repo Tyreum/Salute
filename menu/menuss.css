@@ -1,6 +1,7 @@
 *{
 	margin:0;
-	padding: 0;
+  padding: 0;
+  list-style: none;
 }
 .fundo{
     height: 800px;
@@ -138,4 +139,51 @@
 
 .adj{
   padding-right: 10px;
+}
+
+.box{
+    padding-top: 2px;
+    margin-top: -910px;
+    margin-left: 450px;
+    width: 1000px;
+    height: 911px;
+    background-color: #252525;
+    list-style: none;
+  }
+}
+
+.box ul{
+  list-style: none;
+}
+
+.size{
+  font-size: 30px;
+  font-family: 'Gill Sans MT';
+  text-align: center;
+  display: block;
+  color:whitesmoke;
+}
+
+.entrega{
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.ou{
+  font-size: 30px;
+  font-family: 'Gill Sans MT';
+  display: block;
+  color:whitesmoke;
+  margin-left: 150px;
+  margin-top: 175px;
+  margin-bottom: 10px;
+}
+.entreg{
+  font-size: 30px;
+  font-family: 'Gill Sans MT';
+  text-align: center;
+  display: block;
+  color:whitesmoke;
+  text-decoration: none;
+  margin-top: -180px;
 }
