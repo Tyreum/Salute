@@ -130,6 +130,10 @@
   text-decoration: none;
 }
 
+.especiais h3 a:hover{
+  color: #fcad40;
+}
+
 .imgp{
   padding-right: 50px;
   height: 150px;
