@@ -22,5 +22,37 @@
 		</ul>
 	</nav>
 	<hr class="estilo">
+	<nav class="box">
+		<ul>
+			<li class="size"><h1>Preencha todas as informações</h1></li><br>
+			<div class="info"><input type="text" id="txt1" class="busca_input" placeholder="Rua" /></div><br>
+			<div class="info"><input type="text" id="txt2" class="busca_input" placeholder="Número" /></div><br>
+			<div class="info"><input type="text" id="txt3" class="busca_input" placeholder="Complemento" /></div><br>
+			<div class="info"><input type="text" id="txt4" class="busca_input" placeholder="CEP" /></div><br>
+			<div class="info"><input type="text" id="txt5" class="busca_input" placeholder="Cidade" /></div><br>
+			<div class="info"><input type="text" id="txt6" class="busca_input" placeholder="Estado" /></div><br>
+			<input class="but" type="button" value="Enviar" onclick="enviar()">
+		</ul>
+		<hr>
+		<div style="margin-top: 20px;" class="size" id="pedido"></div>
+	</nav>
+	<script>
+		function enviar() {
+			var t1 = window.document.getElementById('txt1')
+			var t2 = window.document.getElementById('txt2')
+			var t3 = window.document.getElementById('txt3')
+			var t4 = window.document.getElementById('txt4')
+			var t5 = window.document.getElementById('txt5')
+			var t6 = window.document.getElementById('txt6')
+			var n1 = String(t1.value)
+			var n2 = String(t2.value)
+			var n3 = String(t3.value)
+			var n4 = String(t4.value)
+			var n5 = String(t5.value)
+			var n6 = String(t6.value)
+			var pedido = window.document.getElementById('pedido')
+			pedido.innerHTML = `Seu pedido está sendo preparado e será enviado para: <br> ${n1}, ${n2}, ${n3}, ${n5}`
+		}
+	</script>
 </body>
 </html>
