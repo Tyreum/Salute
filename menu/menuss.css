@@ -4,12 +4,12 @@
   list-style: none;
 }
 .fundo{
-    height: 800px;
-    background-image: url(fundo_principal.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-color: rgb(25, 25, 25);
-    background-size: cover;
+  height: 800px;
+  background-image: url(fundo_principal.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-color: rgb(25, 25, 25);
+  background-size: cover;
 }
 
 .menu{
@@ -183,13 +183,14 @@
   margin-bottom: 10px;
 }
 .entreg{
-  font-size: 30px;
+  font-size: 50px;
   font-family: 'Gill Sans MT';
   text-align: center;
   display: block;
   color:whitesmoke;
   text-decoration: none;
   margin-top: -180px;
+  text-decoration: none;
 }
 
 .info{
@@ -214,4 +215,14 @@
   margin-bottom: 40px;
   width: 100px;
   height: 40px;
+}
+
+.hover:hover{
+  color: #fcad40;
+}
+
+.obg{
+  font-size: 20px;
+  margin-left: 20px;
+  color: #fcad40;
 }
