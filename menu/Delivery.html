@@ -5,11 +5,12 @@
 	<link rel="stylesheet" href="menuss.css">
 	<link rel="shortcut icon" href="PIZA.png">
 	<link rel="script" href="js.js">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <style background-color: white;></style>
 
 <body class="fundo">
-	<nav class="menu">
+	<nav class="menu" style="margin-bottom: -20px;">
 		<ul>
 			<li><a href="index.html"><img class="img" src="logo_letters.png"></a></li>
 			<li><a href="Sobre.html">Sobre</a></li>
@@ -20,22 +21,22 @@
             <img src="lupa.png" class="lupa" alt="Buscar" />
 		</ul>
 	</nav>
-	<hr class="estilo">
-	<nav class="box">
+	<hr>
+	<nav class="box" style="margin-top: -20px;">
 		<ul>
-			<li class="size"><h1 style="margin-top: 10px;">Preencha todas as informações</h1></li><br><hr style="margin-bottom: 20px;">
+			<li class="size"><h1 style="margin-top: 10px;">Preencha todas as informações</h1></li><hr>
 			<li class="obg"><p>* Campos obrigatórios</p></li>
-			<li class="obg"><p style="margin-left: 310px; margin-bottom: 20px;">*</p></li>
-			<li class="obg"><p style="margin-left: 310px;">*</p></li>
-			<div class="info" style="margin-top: -73px;"><input type="text" id="txt1" class="busca_input" placeholder="Rua" /></div><br>
+			<div class="info" style="margin-top: -33px;"><input type="text" id="txt1" class="busca_input" placeholder="Rua" /></div><br>
 			<div class="info"><input type="text" id="txt2" class="busca_input" placeholder="Número" /></div><br>
 			<div class="info"><input type="text" id="txt3" class="busca_input" placeholder="Complemento" /></div><br>
 			<div class="info"><input type="text" id="txt4" class="busca_input" placeholder="CEP" /></div><br>
 			<div class="info"><input type="text" id="txt5" class="busca_input" placeholder="Cidade" /></div><br>
 			<div class="info"><input type="text" id="txt6" class="busca_input" placeholder="Estado" /></div><br>
 			<input class="but" type="button" value="Enviar" onclick="enviar()">
+			<li class="obg"><p style="margin-left: 310px; margin-top: -380px;">*</p></li><br>
+			<li class="obg"><p style="margin-left: 310px; margin-top: -10px;">*</p></li>
 		</ul>
-		<hr>
+		<hr style="margin-top: 315px;">
 		<div style="margin-top: 20px;" class="size" id="pedido"></div>
 	</nav>
 	<script src="delivery.js"></script>

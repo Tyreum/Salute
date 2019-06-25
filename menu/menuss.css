@@ -15,9 +15,10 @@
 
 .menu{
 	width: 100%;
-	height: 54px;
+	height: 8%;
 	background-color: #252525;
   font-family: 'Gill Sans MT';
+  margin-top: -10px;
 }
 
 .menu ul{
@@ -41,7 +42,9 @@
 }
 
 .menu a:hover{
-	background-color: #151515;
+  background-color: #151515;
+  color: #eeeeee;
+  text-decoration: none;
 
 }
 
@@ -53,13 +56,13 @@
   background-color: #444444;
   padding-left: 5px;
   padding-top: 5px;
-  padding-bottom: 5px;
+  padding-bottom: -25px;
   font-style: normal;
   border: 1px solid #eeeeee;
   border-radius: 15px;
   width: 300px;
   float: right;
-  margin-top: 13px;
+  margin-top: 16px;
   margin-right: 10px;
 }
 
@@ -68,6 +71,7 @@
   height: 15px;
   width: 15px;
   margin-right: 5px;
+  margin-top: -20px;
 }
 
 .busca_input{
@@ -101,10 +105,12 @@
 
 .promo{
   width: 100%;
-	height: 250px;
+	height: 270px;
 	background-color: #252525;
   font-family: 'Gill Sans MT';
-  padding-top: 10px;
+  margin-top: -20px;
+  margin-right: none;
+  padding-right: 20px;
 }
 
 .promo ul li p a{
@@ -112,10 +118,6 @@
   font-size: 50px;
   padding-left: 10px;
   text-decoration: none;
-}
-
-.especiais li {
-  list-style: none;
 }
 
 .especiais h3 a{
@@ -127,6 +129,7 @@
 
 .especiais h3 a:hover{
   color: #fcad40;
+  text-decoration: none;
 }
 
 .imgp{
@@ -163,8 +166,9 @@
 }
 
 .entrega{
-  margin-top: 40px;
-  margin-left: 40px;
+  margin-top: 20px;
+  margin-left: 250px;
+  width: 200px;
 }
 
 .ou{
@@ -172,8 +176,8 @@
   font-family: 'Gill Sans MT';
   display: block;
   color:whitesmoke;
-  margin-left: 150px;
-  margin-top: 175px;
+  margin-left: 320px;
+  margin-top: 105px;
   margin-bottom: 10px;
 }
 .entreg{
@@ -183,8 +187,9 @@
   display: block;
   color:whitesmoke;
   text-decoration: none;
-  margin-top: -180px;
+  margin-top: -150px;
   text-decoration: none;
+  margin-left: 200px;
 }
 
 .info{
@@ -213,6 +218,7 @@
 
 .hover:hover{
   color: #fcad40;
+  text-decoration: none;
 }
 
 .obg{
@@ -244,27 +250,27 @@
   background-color: #252525;
   border-radius: 20px;
   box-align: center;
-  margin-top: -680px;
-  margin-left: 850px;
+  margin-top: -678px;
+  margin-left: 845px;
   border: 1px solid #eeeeee;
 }
 
 .section3{
-  height: 430px;
+  height: 432px;
   width: 430px;
   background-color: #252525;
   border-radius: 20px;
   box-align: center;
   margin-top: 15px;
   margin-bottom: 50px;
-  margin-left: 850px;
+  margin-left: 845px;
   border: 1px solid #eeeeee;
 }
 
 .imgjs{
   height: 300px;
   margin-top: 310px;
-  margin-right: -250px;
+  margin-right: -190px;
   margin-bottom: 20px;
   float: right;
 }
@@ -276,7 +282,12 @@
   font-size: 40px;
   float: right;
   margin-top: 250px;
-  margin-right: 110px;
+  margin-right: 160px;
+}
+
+.txtjs:hover{
+  color: #fcad40;
+  text-decoration: none;
 }
 
 .txtpizza{
