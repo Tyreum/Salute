@@ -24,5 +24,13 @@ function enviar() {
     else{
         pedido.innerHTML = `Endereço inválido.`
     }
+
+    t1.value = ''
+    t2.value = ''
+    t3.value = ''
+    t4.value = ''
+    t5.value = ''
+    t6.value = ''
+    t1.focus()
 }
 
